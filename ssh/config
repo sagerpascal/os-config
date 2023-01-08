@@ -1,0 +1,92 @@
+
+Host apu2038
+	User ubuntu
+	Hostname 160.85.252.38
+	IdentityFile ~/.ssh/no_pw/id_rsa
+Host apu3235
+	User ubuntu
+	Hostname 160.85.253.235
+	IdentityFile ~/.ssh/no_pw/id_rsa
+Host apu2235
+	User ubuntu
+	Hostname 160.85.252.235
+	IdentityFile ~/.ssh/no_pw/id_rsa
+Host apu2246
+	User ubuntu
+	Hostname 160.85.252.246
+	IdentityFile ~/.ssh/no_pw/id_rsa
+Host apu2157
+	User ubuntu
+	Hostname 160.85.252.157
+	IdentityFile ~/.ssh/no_pw/id_rsa
+Host dgx
+	User sage
+	Hostname dgx.cloudlab.zhaw.ch
+	IdentityFile ~/.ssh/no_pw/id_rsa
+	# ProxyJump apu2246
+Host dgx2
+	User sage
+	Hostname dgx2.cloudlab.zhaw.ch
+	IdentityFile ~/.ssh/no_pw/id_rsa
+	# ProxyJump apu2246
+Host dgx3
+	User sage
+	Hostname dgx3.cloudlab.zhaw.ch
+	IdentityFile ~/.ssh/no_pw/id_rsa
+	# ProxyJump apu2246
+Host dgxa100
+	User sage
+	Hostname dgx-a100.cloudlab.zhaw.ch
+	IdentityFile ~/.ssh/no_pw/id_rsa
+	# ProxyJump apu2246
+Host dgxadm
+	User sageadm
+	Hostname dgx.cloudlab.zhaw.ch
+	IdentityFile ~/.ssh/no_pw/id_rsa
+	# ProxyJump apu2246
+Host dgx2adm
+	User sageadm
+	Hostname dgx2.cloudlab.zhaw.ch
+	IdentityFile ~/.ssh/no_pw/id_rsa
+	# ProxyJump apu2246
+Host dgx3adm
+	User sageadm
+	Hostname dgx3.cloudlab.zhaw.ch
+	IdentityFile ~/.ssh/no_pw/id_rsa
+	# ProxyJump apu2246
+Host dgxa100adm
+	User sageadm
+	Hostname dgx-a100.cloudlab.zhaw.ch
+	IdentityFile ~/.ssh/no_pw/id_rsa
+	# ProxyJump apu2246
+Host dgxn
+        User sage
+        Hostname 160.85.254.25
+        IdentityFile ~/.ssh/no_pw/id_rsa
+        # ProxyJump apu2246
+Host dgx2n
+        User sage
+        Hostname 160.85.254.27
+        IdentityFile ~/.ssh/no_pw/id_rsa
+        # ProxyJump apu2246
+Host dgx3n
+        User sage
+        Hostname 160.85.254.45
+        IdentityFile ~/.ssh/no_pw/id_rsa
+        # ProxyJump apu2246
+Host ceph01
+    Hostname srv-lab-t-700.zhaw.ch
+    User sageadm
+    DynamicForward 12345
+Host ceph02
+    Hostname srv-lab-t-701.zhaw.ch
+    User sageadm
+    DynamicForward 12345
+Host ceph03
+    Hostname srv-lab-t-702.zhaw.ch
+    User sageadm
+    DynamicForward 12345
+Host apu2066
+	User ubuntu
+	Hostname 160.85.252.66
+	IdentityFile ~/.ssh/no_pw/id_rsa
